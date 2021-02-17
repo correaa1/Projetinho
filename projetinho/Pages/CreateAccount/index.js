@@ -4,6 +4,8 @@ import {Text, View, TouchableOpacity} from 'react-native';
 
 import {Container, CampoInput, ViewInput, ButtonBack} from './styles';
 
+import AsyncStorage from '@react-native-async-storage/async-storage';
+
 const CreateAccount = () => {
   const [nome, setNome] = useState();
 
